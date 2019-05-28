@@ -25,6 +25,10 @@ PRODUCT_PACKAGES += \
     libsfplugin_ccodec_utils.vendor \
     libstagefright_foundation-v33
 
+# SELinux
+BOARD_VENDOR_SEPOLICY_DIRS += \
+    $(LOCAL_PATH)/sepolicy/vendor
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
