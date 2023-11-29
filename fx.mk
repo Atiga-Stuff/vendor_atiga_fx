@@ -13,3 +13,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+
+# Configs
+PRODUCT_COPY_FILES += \
+		$(LOCAL_PATH)/configs/audio/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
+
+# Minijail
+PRODUCT_PACKAGES += \
+    libcodec2_soft_common.vendor \
+    libcodec2_vndk.vendor \
+    libsfplugin_ccodec_utils.vendor \
+    libstagefright_foundation-v33
