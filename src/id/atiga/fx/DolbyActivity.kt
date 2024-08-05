@@ -7,10 +7,11 @@
 package id.atiga.fx
 
 import android.os.Bundle
+import id.atiga.fx.preference.DolbySettingsFragment
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity
 import com.android.settingslib.widget.R
 
-private const val TAG = "DolbyActivity"
+private const val TAG = "AigaActivity"
 
 class DolbyActivity : CollapsingToolbarBaseActivity() {
 

@@ -4,12 +4,13 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package id.atiga.fx
+package id.atiga.fx.preference
 
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.preference.PreferenceDataStore
 import androidx.preference.PreferenceManager
+import id.atiga.fx.DolbyConstants
 
 class DolbyPreferenceStore(
     private val context: Context
