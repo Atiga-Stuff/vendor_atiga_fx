@@ -16,7 +16,7 @@
 
 # Configs
 PRODUCT_COPY_FILES += \
-		$(LOCAL_PATH)/configs/audio/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
+    $(LOCAL_PATH)/configs/audio/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
 
 # Minijail
 PRODUCT_PACKAGES += \
