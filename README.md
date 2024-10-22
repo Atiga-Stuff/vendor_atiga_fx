@@ -6,7 +6,7 @@ Getting Started
 Clone this repository
 
 ```bash
-git clone -b atiga-1.0 https://github.com/aepranata/hardware_atiga_fx.git hardware/atiga/fx
+git clone -b atiga-1.0 https://github.com/aepranata/vendor_atiga_fx.git vendor/atiga/fx
 ```
 
 Patches required on device tree side
