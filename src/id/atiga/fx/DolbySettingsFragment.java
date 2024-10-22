@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package co.aospa.dolby.xiaomi;
+package id.atiga.fx;
 
 import android.media.AudioAttributes;
 import android.media.AudioDeviceAttributes;
@@ -26,7 +26,7 @@ import androidx.preference.SwitchPreference;
 import com.android.settingslib.widget.MainSwitchPreference;
 import com.android.settingslib.widget.OnMainSwitchChangeListener;
 
-import co.aospa.dolby.xiaomi.R;
+import id.atiga.fx.R;
 
 import java.util.Arrays;
 import java.util.List;

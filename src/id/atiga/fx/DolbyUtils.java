@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package co.aospa.dolby.xiaomi;
+package id.atiga.fx;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -20,8 +20,8 @@ import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import co.aospa.dolby.xiaomi.DolbyConstants.DsParam;
-import co.aospa.dolby.xiaomi.R;
+import id.atiga.fx.DolbyConstants.DsParam;
+import id.atiga.fx.R;
 
 import java.util.Arrays;
 import java.util.List;

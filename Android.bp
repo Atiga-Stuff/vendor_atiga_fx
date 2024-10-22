@@ -6,7 +6,7 @@
 //
 
 android_app {
-    name: "XiaomiDolby",
+    name: "AtigaFX",
 
     srcs: ["src/**/*.java"],
     resource_dirs: ["res"],

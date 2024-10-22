@@ -5,7 +5,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package co.aospa.dolby.xiaomi;
+package id.atiga.fx;
 
 import static com.android.settingslib.drawer.TileUtils.META_DATA_PREFERENCE_SUMMARY;
 
@@ -15,7 +15,7 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 
-import co.aospa.dolby.xiaomi.R;
+import id.atiga.fx.R;
 
 import java.util.Arrays;
 import java.util.List;

@@ -4,12 +4,12 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package co.aospa.dolby.xiaomi;
+package id.atiga.fx;
 
 import android.media.audiofx.AudioEffect;
 import android.util.Log;
 
-import co.aospa.dolby.xiaomi.DolbyConstants.DsParam;
+import id.atiga.fx.DolbyConstants.DsParam;
 
 import java.util.UUID;
 
