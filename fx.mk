@@ -11,7 +11,7 @@ PRODUCT_PACKAGES += \
 
 # Configs
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/audio/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
+    vendor/atiga/fx/configs/audio/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
 
 # Minijail
 PRODUCT_PACKAGES += \
@@ -43,4 +43,4 @@ PRODUCT_PACKAGES += \
 
 # SELinux
 BOARD_VENDOR_SEPOLICY_DIRS += \
-    $(LOCAL_PATH)/sepolicy/vendor
+    vendor/atiga/fx/sepolicy/vendor
